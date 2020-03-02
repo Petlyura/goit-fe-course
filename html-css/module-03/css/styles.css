@@ -29,7 +29,7 @@ img {
 }
 
 .page-header {
-	padding: 70px 164px;
+	padding: 70px 0;
 	margin-bottom: 26px;
 }
 
@@ -38,6 +38,7 @@ img {
 	padding: 0;
 	list-style: none;
 	font-size: 0;
+	text-align: center;
 }
 
 .page-navigation-list-item {
@@ -59,17 +60,18 @@ img {
 }
 
 .page-navigation-list-item a {
+	display: block;
 	color: #626262;
 	text-decoration: none;
-}
-
-.page-navigation-list-item .active {
-	color: #03a9f4;
 }
 
 .page-navigation-list-item a:hover,
 .page-navigation-list-item a:focus {
 	color: #03a9f4;
+}
+
+.main-section {
+	padding-bottom: 70px;
 }
 
 .article-list {
@@ -119,7 +121,8 @@ img {
 }
 
 .more-article-button {
-	margin: 0 0 70px 358px;
+	display: block;
+	margin: 0 auto;
 	padding: 17px 33px;
 	border: 1px solid #626262;
 	background-color: #ffffff;
@@ -129,6 +132,3 @@ img {
 	color: #626262;
 	cursor: pointer;
 }
-
-
-
