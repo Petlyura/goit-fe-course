@@ -30,7 +30,7 @@ img {
 
 .container {
 	margin: 0 auto;
-	padding: 0 30px;
+	padding: 0 15px;
 	width: 1170px;
 }
 
@@ -41,7 +41,8 @@ img {
 
 .site-logo {
 	display: inline-block;
-	margin-right: 536px;
+	margin-right: auto;
+	padding: 0 15px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	font-weight: 300;
@@ -62,11 +63,11 @@ img {
 }
 
 .page-navigation-list {
-	display: inline-block;
+	float: right;
 	margin: 0;
 	padding: 0;
+	width: 490px;
 	list-style: none;
-	vertical-align: middle;
 }
 
 .page-navigation-item {
@@ -85,23 +86,23 @@ img {
 
 .home-link,
 .blog-link {
-	padding: 10px;
+	padding: 10px 9px;
 }
 
 .about-link {
-	padding: 10px 24px;
+	padding: 10px 22px;
 }
 
 .page-link {
-	padding: 10px 14px;
+	padding: 10px 13px;
 }
 
 .shop-link {
-	padding: 10px 18px;
+	padding: 10px 15px;
 }
 
 .contact-link {
-	padding: 10px 0 10px 25px;
+	padding: 10px 15px 10px 23px;
 }
 
 .page-navigation-link:hover,
@@ -125,6 +126,14 @@ img {
 	color: #515151
 }
 
+.features-section-title {
+	margin-bottom: 92px;
+}
+
+.news-section-title {
+	margin-bottom: 81px;
+}
+
 .features-section-title::after,
 .news-section-title::after {
 	display: block;	
@@ -134,17 +143,14 @@ img {
 	background-color: #1abc9c;
 }
 
-.features-section-title::after {
-	margin: 32px auto 92px;
-}
-
+.features-section-title::after,
 .news-section-title::after {
-	margin: 32px auto 81px;
+	margin: 32px auto;
 }
 
 .features-list {
 	margin: 0;
-	padding: 0;
+	padding: 0 15px;
 	list-style: none;
 }
 
@@ -194,21 +200,22 @@ img {
 	background-color: #7fd9c7;
 }
 
+
 .article-list {
 	margin: 0;
-	padding: 0;
+	padding: 0 15px;
 	list-style: none;
 }
 
 .article-list-item {
 	float: left;
-	width: 351px;
+	width: 350px;
 	padding-bottom: 45px;
 	margin-bottom: 35px;
 }
 
 .article-list-item:not(:last-child) {
-	margin-right: 28px;
+	margin-right: 30px;
 }
 
 .article-list-item > img {
@@ -216,7 +223,7 @@ img {
 }
 
 .article-title {
-	margin: 0;
+	margin: 0 0 22px;
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -235,16 +242,15 @@ img {
 }
 
 .read-more-button {
-	display: block;
+	display: inline-block;
 	padding: 14px 43px;
 	font-size: 16px;
 	font-weight: 300;
+	text-decoration: none;
 	color: #ffffff;
-	border: none;
 	border-radius: 5px;
 	box-shadow: 2px 0 5px rgba(0, 0, 0, 0.39);
 	background-color: #4ec6ab;
-	cursor: pointer;
 }
 
 .read-more-button:hover,
