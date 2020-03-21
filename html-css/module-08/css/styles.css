@@ -50,7 +50,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	width: 320px;
+	width: 300px;
 }
 
 .promo {
@@ -106,7 +106,7 @@ body {
 .promo-title {
 	margin: 0 auto;	
 	margin-bottom: 7px;
-	width: 89%;
+	width: 94.9333%;
 	font-size: 30px;
 	line-height: 1.2;
 	text-align: center;
@@ -117,7 +117,7 @@ body {
 .sub-title {
 	margin: 0 auto;
 	margin-bottom: 14px;
-	width: 67.8125%;
+	width: 72.3333%;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: 300;
@@ -129,7 +129,7 @@ body {
 .search-btn {
 	display: block;
 	margin: 0 auto;
-	width: 90%;
+	width: 96%;
 	padding: 11px 0;
 	font-size: 14px;
 	line-height: 1.2;
@@ -234,7 +234,7 @@ body {
 .more-partner-btn {
 	display: block;
 	margin: 0 auto;
-	width: 90%;
+	width: 96%;
 	padding: 11px 0px;
 	font-size: 14px;
 	line-height: 1.2;
@@ -270,7 +270,7 @@ body {
 
 @media screen and (min-width: 748px) {
 	.container {
-		width: 748px;
+		width: 728px;
 	}
 
 	.promo {
@@ -290,18 +290,17 @@ body {
 
 	.promo-title {	
 		margin-bottom: 24px;
-		width: 81%;
+		width: 83.2253%;
 		font-size: 52px;
 	}
 
 	.sub-title {
 		margin-bottom: 33px;
-		width: 67.8125%;
 		font-size: 24px;
 	}
 
 	.search-btn {
-		width: 30.2129%;
+		width: 31.0429%;
 	}
 
 	.partners {
@@ -326,7 +325,7 @@ body {
 	}
 
 	.more-partner-btn {
-		width: 25.6684%;
+		width: 26.3736%;
 	}
 }
 
@@ -338,7 +337,7 @@ body {
 
 @media screen and (min-width: 940px) {
 	.container {
-		width: 940px;
+		width: 920px;
 	}
 
 	.promo {
@@ -350,12 +349,12 @@ body {
 	}
 
 	.promo-title {	
-		width: 53.1915%;
+		width: 65.8565%;
 		font-size: 52px;
 	}
 
 	.search-btn {
-		width: 24.0426%;
+		width: 24.5653%;
 	}
 
 	.partners {
@@ -371,7 +370,7 @@ body {
 	}
 
 	.more-partner-btn {
-		width: 20.4255%;
+		width: 20.8695%;
 	}
 }
 
