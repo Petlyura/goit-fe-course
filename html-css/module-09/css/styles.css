@@ -355,7 +355,7 @@ body {
 
 @media screen and (min-width: 992px) {
 	
-	.promo-wrapper {
+	.promo {
 		background: url(../images/desktop-image.png);
 		background-repeat: no-repeat;
 		background-position: center;
