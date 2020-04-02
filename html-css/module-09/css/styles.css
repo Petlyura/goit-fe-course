@@ -45,25 +45,20 @@ img {
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+	line-height: 1.2;
 	color: #333333;
 }
 
-.promo-wrapper {
+.promo {
+	min-height: 540px;
 	background: url(../images/mobile-image.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-}
-
-.promo {
-	min-height: 33.75rem;
 	text-align: center;
 }
 
-.promo-section-header {
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: space-between;	
+.promo-section-header {	
 	min-height: 13.125rem;
 }
 
@@ -82,51 +77,46 @@ body {
 	font-size: 0.875rem;
 	color: #ffffff;
 	text-decoration: none;
-	border: 0.125rem solid transparent;
-	border-radius: 1rem;	
+	border: 2px solid transparent;
+	border-radius: 16px;	
 	transition: border 0.4s ease-in;
 }
 
 .action-btn:hover,
 .action-btn:focus {
-	border: 0.125rem solid #ffffff;
+	border: 2px solid #ffffff;
 }
 
 .site-logo {
+	display: block;
 	font-size: 1.25rem;
-	line-height: 1.2;
 	text-decoration: none;
 	text-transform: uppercase;
-	text-align: center;
 	color: #ffffff;
 }
 
 .promo-title {
 	margin: 0 auto;	
-	width: 17.6875rem;
+	width: 17.625rem;
 	font-size: 1.87rem;
-	line-height: 1.2;
-	text-align: center;
 	text-transform: uppercase;
 	color: #ffffff;
 }
 
-.promo-content [class*="col-"]:nth-child(2) {
+.promo-body > [class*="col-"]:first-child {
 	margin-bottom: 0.4375rem;
 }
 
 .sub-title {
 	margin: 0 auto;
-	width: 13.75rem;
+	width: 13.5625rem;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.125rem;
 	font-weight: 300;
-	line-height: 1.2;
-	text-align: center;
 	color: #ffffff;
 }
 
-.promo-content [class*="col-"]:nth-child(3) {
+.promo-body > [class*="col-"]:nth-child(2) {
 	margin-bottom: 0.875rem;
 }
 
@@ -134,34 +124,38 @@ body {
 	display: block;
 	margin: 0 auto;
 	width: 17.5rem;
-	padding: 0.6875rem 0;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
 	font-size: 0.875rem;
-	line-height: 1.2;
 	background-color: rgb(255, 78, 80);
 	text-decoration: none;
 	color: #ffffff;
-	border-radius: 1rem;
+	border-radius: 21px;
 	transition: box-shadow 0.4s ease-in;
 }
 
 .search-btn:hover,
 .search-btn:focus {
-	box-shadow: 0.125rem 0.1875rem 0.125rem 0.1875rem rgb(0, 0, 0, 0.3);
+	box-shadow: 2px 3px 2px 3px rgb(0, 0, 0, 0.3);
 }
 
 .partners {
 	text-align: center;
 }
 
+.partners-title-row {
+	margin-bottom: 0.9375rem;
+}
+
 .partners-title {
-	margin: 0;
+	margin: 0 auto;
+	/* width: 16.5rem; */
 	font-size: 1.375rem;
-	line-height: 1.2;	
-	letter-spacing: -1px;
 }
 
 .partners-list {
 	margin: 0;
+	margin-bottom: 1.6875rem;
 	padding: 0;
 	list-style: none;
 }
@@ -180,7 +174,7 @@ body {
 }
 
 .partners-image {
-	border: 0.25rem solid #ffffff;
+	border: 4px solid #ffffff;
 	border-radius: 50%;
 }
 
@@ -192,7 +186,7 @@ body {
 	height: 2.25rem;	
 	background-repeat: no-repeat;
 	background-position: center;
-	border: 0.25rem solid #ffffff;
+	border: 4px solid #ffffff;
 	border-radius: 50%;
 }
 
@@ -220,7 +214,6 @@ body {
 	margin: 0;
 	margin-bottom: 0.875rem;
 	font-size: 0.875rem;
-	line-height: 1.2;
 }
 
 .about-partner {
@@ -229,7 +222,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.875rem;
 	font-weight: 300;
-	line-height: 1.2;
 	color: #666666;
 }
 
@@ -237,14 +229,14 @@ body {
 	display: block;
 	margin: 0 auto;
 	width: 17.5rem;
-	padding: 0.6875rem 0;
+	padding-top: 0.6875rem;
+	padding-bottom: 0.6875rem;
 	font-size: 0.875rem;
-	line-height: 1.2;
 	background-color: #ffffff;
 	text-decoration: none;
 	color: #ff4e50;
-	border: 0.125rem solid #ff4e50;
-	border-radius: 1.3125rem;
+	border: 2px solid #ff4e50;
+	border-radius: 21px;
 	transition: background-color 0.25s ease-in, color 0.25s ease-in, border 0.25s ease-in;
 }
 
@@ -252,38 +244,31 @@ body {
 .more-partner-btn:focus {
 	background-color: #ff4e50;
 	color: #ffffff;
-	border: 0.125rem solid #ff4e50;
+	border: 2px solid #ff4e50;
 }
 
-
 @media screen and (max-width: 767px) {
+
+	.promo-section-header {	
+		min-height: 13.125rem;
+	}
 	
 	.promo-section-header {
 		padding-top: 1.25rem;
 		padding-bottom: 1.125rem;
 	}
-
 	
-	.promo-content [class*="col-"]:nth-child(1) {
+	.promo-header-content {
 		margin-bottom: 0.75rem;
 	}
 	
 	.partners {
-		padding-top: 4.0625rem;
+		padding-top: 4.25rem;
 		padding-bottom: 3.5625rem;
 	}
 
-	.partners-content [class*="col-"]:nth-child(1) {
-	margin-bottom: 0.9375rem;
-	}
-
-	.partners-content [class*="col-"]:nth-child(2) {
-		margin-bottom: 1.6875rem;
-	}
-
 	.partners-title {
-		width: 262px;
-		margin: 0 auto;
+		width: 16.5rem;
 	}
 
 	.partners-list [class*="col-"]:not(:last-child) {
@@ -292,25 +277,34 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-	
-	.promo-wrapper {
+
+	.promo {
+		min-height: 43.75rem;
 		background: url(../images/tablet-image.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 	}
-	.promo {
-		min-height: 43.75rem;		
+
+	.promo-header-content {
+		margin-bottom: 6.125rem;
 	}
 
-	.promo-section-header {
-		flex-direction: row;
-		align-items: center;
+	.promo-section-header {		
 		min-height: 7.25rem;
 	}
 
-	.promo-content [class*="col-"]:nth-child(1) {
-		margin-bottom: 6.125rem;
+	.site-logo {
+		text-align: left;
+	}
+
+	.action-list {
+		width: 10.9375rem;
+		margin-left: auto;
+	}
+
+	.promo-body > [class*="col-"]:first-child {
+		margin-bottom: 1.5rem;
 	}
 
 	.promo-title {	
@@ -318,17 +312,13 @@ body {
 		font-size: 3.25rem;
 	}
 
-	.promo-content [class*="col-"]:nth-child(2) {
-		margin-bottom: 1.5rem;
+	.promo-body > [class*="col-"]:nth-child(2) {
+		margin-bottom: 2.0625rem;
 	}
 
 	.sub-title {
 		width: 100%;
 		font-size: 1.5rem;
-	}
-
-	.promo-content [class*="col-"]:nth-child(3) {
-		margin-bottom: 2.0625rem;
 	}
 
 	.search-btn {
@@ -340,17 +330,8 @@ body {
 		padding-bottom: 2.5rem;
 	}
 
-	.partners-content > [class*="col-"]:nth-child(1) {
-		margin-bottom: 1.75rem;
-	}
-
-	.partners-list {
-		margin: 0 auto;
-		width: 30.75rem;
-	}
-
-	.partners-content > [class*="col-"]:nth-child(2) {
-		margin-bottom: 2.25rem;
+	.partners-title-row {
+		margin-bottom: 1.75rem;		
 	}
 
 	.more-partner-btn {
@@ -359,7 +340,15 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-	.partners-list [class*="col-"]:not(:nth-last-child(-n + 2)) {
+
+	.partners-list {
+		margin: 0 auto;
+		margin-bottom: 2.25rem;
+		width: 30.75rem;
+	}
+
+	.partners-list [class*="col-"]:first-child,
+	.partners-list .order-md-1 {
 		margin-bottom: 50px;
 	}
 }
@@ -376,9 +365,6 @@ body {
 	.partners {
 		padding-bottom: 4.5625rem;
 	}
-
-	.partners-list {
-		width: 100%;
-	}
-
 } 
+
+
