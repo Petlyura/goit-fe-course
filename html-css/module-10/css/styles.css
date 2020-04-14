@@ -423,22 +423,22 @@ body {
   transition: fill 0.2s linear;
 }
 
-.facebook-icon {
+.social-list__icon--facebook {
   width: 16px;
   height: 32px;
 }
 
-.twitter-icon {
+.social-list__icon--twitter {
   width: 38px;
   height: 32px;
 }
 
-.pinterest-icon {
+.social-list__icon--pinterest {
   width: 26px;
   height: 32px;
 }
 
-.instagram-icon {
+.social-list__icon--instagram {
   width: 32px;
   height: 32px;
 }
