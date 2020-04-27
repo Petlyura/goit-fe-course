@@ -1,0 +1,25 @@
+.subscribe-container {
+  display: flex;
+}
+
+input[type='text'] {
+  width: 227px;
+  padding: 10px;
+  font-family: $secondary-font-stack;
+  font-size: 15px;
+  font-weight: map-get($font-weights, regular);
+  font-style: italic;
+  line-height: map-get($line-heights, bigger);
+  color: map-get($colors, input-color);
+  border: 1px solid map-get($colors, secondary-light);
+  outline: none;
+}
+
+.subscribe-btn {
+  @extend .btn;
+  padding: 0 33px;
+  background-color: map-get($colors, services-icon);
+  font-size: 14px;
+  text-transform: uppercase;
+  color: map-get($colors, primary-light);
+}

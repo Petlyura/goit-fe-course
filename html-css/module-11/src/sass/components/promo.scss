@@ -1,0 +1,29 @@
+.promo {
+  @extend .container;
+  text-align: center;
+}
+
+.promo__title {
+  @extend .section__title;
+  margin-bottom: 126px;
+  padding: 0 70px;
+  font-size: 150px;
+  line-height: map-get($line-heights, biggest);
+  text-transform: uppercase;
+  color: map-get($colors, primary-light);
+
+  &--cursive {
+    @extend .section__title--cursive;
+    font-size: 72px;
+    text-transform: capitalize;
+  }
+}
+
+.promo__btn {
+  @extend .btn;
+  padding: 9px 30px;
+  font-size: 14px;
+  border: 3px solid map-get($colors, primary-light);
+  text-transform: uppercase;
+  color: map-get($colors, primary-light);
+}

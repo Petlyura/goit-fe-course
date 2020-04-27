@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Module-11. Home work</title>
+    <!-- Сюда будет всталена ссылка на файл стилей -->
+    <!-- inject:css -->
+    <!-- endinject -->
+  </head>
+
+  <body>
+    <header class="page-header">
+      <nav class="page-navigation container">
+        <a href="#" class="link site-logo">MoGo</a>
+
+        <ul class="list site-navigation">
+          <li class="site-navigation__item">
+            <a href="#" class="link site-navigation__link">About</a>
+          </li>
+          <li class="site-navigation__item">
+            <a href="#" class="link site-navigation__link">Service</a>
+          </li>
+          <li class="site-navigation__item">
+            <a href="#" class="link site-navigation__link">Work</a>
+          </li>
+          <li class="site-navigation__item">
+            <a href="#" class="link site-navigation__link">Blog</a>
+          </li>
+          <li class="site-navigation__item">
+            <a href="#" class="link site-navigation__link">Contact</a>
+          </li>
+          <li class="site-navigation__item">
+            <a href="#" class="link site-navigation__link">
+              <svg class="site-navigation__icon cart-icon">
+                <use href="./images/icons/sprite.svg#shoppping-cart-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="site-navigation__item">
+            <a href="#" class="link site-navigation__link">
+              <svg class="site-navigation__icon glass-icon">
+                <use
+                  href="./images/icons/sprite.svg#magnifying-glass-icon"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="section promo container">
+        <h2 class="section__title promo__title">
+          <span class="section__title--cursive promo__title--cursive"
+            >Creative Template</span
+          >
+          Welcome to MoGo
+        </h2>
+
+        <button class="btn promo__btn">Learn more</button>
+      </section>
+    </header>
+
+    <main class="page-main-section">
+      <section class="section services container">
+        <h2 class="section__title services__title">
+          <span class="section__title--cursive services__title--cursive"
+            >We work with</span
+          >
+          Amazing Services
+        </h2>
+
+        <ul class="list services__list">
+          <li class="services__item services__item--alarm">
+            <svg class="services__icon">
+              <use href="./images/icons/sprite.svg#alarm-icon"></use>
+            </svg>
+            <article class="service">
+              <h3 class="service__title">Photography</h3>
+              <p class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </article>
+          </li>
+
+          <li class="services__item services__item--linegraph">
+            <svg class="services__icon">
+              <use href="./images/icons/sprite.svg#line-graph-icon"></use>
+            </svg>
+            <article class="service">
+              <h3 class="service__title">Web Design</h3>
+              <p class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </article>
+          </li>
+
+          <li class="services__item services__item--computer">
+            <svg class="services__icon">
+              <use href="./images/icons/sprite.svg#computer-icon"></use>
+            </svg>
+            <article class="service">
+              <h3 class="service__title">Creativity</h3>
+              <p class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </article>
+          </li>
+
+          <li class="services__item services__item--book">
+            <svg class="services__icon">
+              <use href="./images/icons/sprite.svg#book-icon"></use>
+            </svg>
+            <article class="service">
+              <h3 class="service__title">Seo</h3>
+              <p class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </article>
+          </li>
+
+          <li class="services__item services__item--home">
+            <svg class="services__icon">
+              <use href="./images/icons/sprite.svg#home-icon"></use>
+            </svg>
+            <article class="service">
+              <h3 class="service__title">Css/Html</h3>
+              <p class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </article>
+          </li>
+
+          <li class="services__item services__item--image">
+            <svg class="services__icon">
+              <use href="./images/icons/sprite.svg#image-icon"></use>
+            </svg>
+            <article class="service">
+              <h3 class="service__title">Digital</h3>
+              <p class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section team container">
+        <h2 class="section__title team__title">
+          <span class="section__title--cursive team__title--cursive"
+            >Who we are</span
+          >
+          Meet our team
+        </h2>
+
+        <p class="team__preview">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+
+        <ul class="list team__list">
+          <li class="team__item">
+            <article class="team-member">
+              <div class="image-container">
+                <img
+                  class="team-member__image"
+                  srcset="
+                    ./images/guy-in-spectacles.png    380w,
+                    ./images/guy-in-spectacles@2x.png 760w
+                  "
+                  sizes="380px"
+                  src="./images/guy-in-spectacles.png"
+                  alt="guy in spectacles"
+                  height="470"
+                />
+
+                <ul class="list social-list">
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg
+                        class="social-list__icon social-list__icon--facebook"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#facebook-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg class="social-list__icon social-list__icon--twitter">
+                        <use
+                          href="./images/icons/sprite.svg#twitter-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg
+                        class="social-list__icon social-list__icon--pinterest"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#pinterest-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg
+                        class="social-list__icon social-list__icon--instagram"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#instagram-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="team-member__name">Matthew Dix</h3>
+              <p class="team-member__occupation">Graphic Design</p>
+            </article>
+          </li>
+
+          <li class="team__item">
+            <article class="team-member">
+              <div class="image-container">
+                <img
+                  class="team-member__image"
+                  srcset="
+                    ./images/guy-with-camera.png    380w,
+                    ./images/guy-with-camera@2x.png 760w
+                  "
+                  sizes="380px"
+                  src="./images/guy-with-camera.png"
+                  alt="guy with camera"
+                  height="470"
+                />
+
+                <ul class="list social-list">
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg
+                        class="social-list__icon social-list__icon--facebook"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#facebook-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg class="social-list__icon social-list__icon--twitter">
+                        <use
+                          href="./images/icons/sprite.svg#twitter-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg
+                        class="social-list__icon social-list__icon--pinterest"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#pinterest-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg
+                        class="social-list__icon social-list__icon--instagram"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#instagram-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="team-member__name">Christopher Campbell</h3>
+              <p class="team-member__occupation">Branding/UX design</p>
+            </article>
+          </li>
+
+          <li class="team__item">
+            <article class="team-member">
+              <div class="image-container">
+                <img
+                  class="team-member__image"
+                  srcset="
+                    ./images/guy-in-red-shirt.png    380w,
+                    ./images/guy-in-red-shirt@2x.png 760w
+                  "
+                  sizes="380px"
+                  src="./images/guy-in-red-shirt.png"
+                  alt="guy in red shirt"
+                  height="470"
+                />
+
+                <ul class="list social-list">
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg
+                        class="social-list__icon social-list__icon--facebook"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#facebook-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg class="social-list__icon social-list__icon--twitter">
+                        <use
+                          href="./images/icons/sprite.svg#twitter-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg
+                        class="social-list__icon social-list__icon--pinterest"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#pinterest-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item">
+                    <a href="#" class="link social-list__link">
+                      <svg
+                        class="social-list__icon social-list__icon--instagram"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#instagram-icon"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="team-member__name">Michael Fertig</h3>
+              <p class="team-member__occupation">Developer</p>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="page-footer container">
+      <p class="legal-info">
+        &copy; 2016 MoGo free PSD template by <span>Laaqiq</span>
+      </p>
+      <div class="subscribe-container">
+        <label for="email"><span class="visually-hidden">Email</span></label>
+        <input type="text" placeholder="Your Email..." name="email" />
+        <button class="btn page-footer__btn subscribe-btn">Subscribe</button>
+      </div>
+    </footer>
+    <!-- Сюда будет всталена ссылка на файл скриптов -->
+    <!-- inject:js -->
+    <!-- endinject -->
+  </body>
+</html>

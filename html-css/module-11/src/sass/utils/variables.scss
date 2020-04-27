@@ -1,0 +1,27 @@
+$primary-font-stack: 'Montserrat', sans-serif;
+$secondary-font-stack: 'Roboto', sans-serif;
+$cursive-font-stack: 'Kaushan Script', cursive;
+
+$colors: (
+  primary-dark: #333333,
+  secondary-dark: #999999,
+  start-gradient: #f38181,
+  end-gradient: #fce38a,
+  primary-light: #ffffff,
+  secondary-light: #e5e5e5,
+  input-color: #cccccc,
+  services-icon: #95e1d3,
+  social-border: #f9bd87,
+);
+
+$line-heights: (
+  base: 1.2,
+  bigger: 24px,
+  biggest: 140px,
+);
+
+$font-weights: (
+  light: 300,
+  regular: 400,
+  bbold: 700,
+);

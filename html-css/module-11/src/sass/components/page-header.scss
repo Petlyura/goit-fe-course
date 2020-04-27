@@ -1,0 +1,28 @@
+.page-header {
+  padding-top: 21px;
+  min-height: 1000px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(243, 129, 129, 0.9),
+      rgba(252, 227, 138, 0.9)
+    ),
+    url(../images/banner-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .page-header {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(243, 129, 129, 0.9),
+          rgba(252, 227, 138, 0.9)
+        ),
+        url(../images/banner-image@2x.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}

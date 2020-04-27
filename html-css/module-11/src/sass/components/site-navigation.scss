@@ -1,0 +1,29 @@
+.site-navigation {
+  @extend .list;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 620px;
+}
+
+.site-navigation__link {
+  @extend .link;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  font-weight: map-get($font-weights, regular);
+  border-bottom: 3px solid transparent;
+  text-transform: uppercase;
+  color: map-get($colors, primary-light);
+  transition: color 0.2s linear, border-bottom 0.2s linear;
+
+  &:hover {
+    color: map-get($colors, end-gradient);
+    border-bottom: 3px solid map-get($colors, end-gradient);
+  }
+}
+
+.site-navigation__icon {
+  width: 17px;
+  height: 14px;
+  fill: map-get($colors, primary-light);
+}

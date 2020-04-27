@@ -1,0 +1,141 @@
+.team {
+  @extend .container;
+  margin-bottom: 80px;
+}
+
+.team__title {
+  @extend .section__title;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 41px;
+  width: 380px;
+  font-size: 30px;
+  text-align: center;
+
+  &--cursive {
+    font-size: 24px;
+    text-transform: none;
+  }
+
+  &::after {
+    margin: 0 auto;
+    margin-top: 35px;
+    display: block;
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: map-get($colors, start-gradient);
+  }
+}
+
+.team__preview {
+  margin: 0 auto;
+  margin-bottom: 89px;
+  width: 955px;
+  font-family: $secondary-font-stack;
+  font-size: 15px;
+  font-weight: map-get($font-weights, regular);
+  line-height: map-get($line-heights, bigger);
+  color: map-get($colors, secondary-dark);
+  text-align: center;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__item:first-child:hover .social-list {
+  opacity: 1;
+  top: -10px;
+  left: -10px;
+  padding: 10px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9)
+    ),
+    url(../images/guy-in-spectacles.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 0px 1px rgb(149, 225, 211);
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .team__item:first-child:hover .social-list {
+      background-image: linear-gradient(
+          0deg,
+          rgba(252, 227, 138, 0.9),
+          rgba(243, 129, 129, 0.9)
+        ),
+        url(../images/guy-in-spectacles@2x.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+.team__item:nth-child(2):hover .social-list {
+  opacity: 1;
+  top: -10px;
+  left: -10px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9)
+    ),
+    url(../images/guy-with-camera.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 0px 1px rgb(149, 225, 211);
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .team__item:nth-child(2):hover .social-list {
+      background-image: linear-gradient(
+          0deg,
+          rgba(252, 227, 138, 0.9),
+          rgba(243, 129, 129, 0.9)
+        ),
+        url(../images/guy-with-camera@2x.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+.team__item:last-child:hover .social-list {
+  opacity: 1;
+  top: -10px;
+  left: -10px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9)
+    ),
+    url(../images/guy-in-red-shirt.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 0px 1px rgb(149, 225, 211);
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .team__item:last-child:hover .social-list {
+      background-image: linear-gradient(
+          0deg,
+          rgba(252, 227, 138, 0.9),
+          rgba(243, 129, 129, 0.9)
+        ),
+        url(../images/guy-in-red-shirt@2x.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}

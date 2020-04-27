@@ -1,0 +1,9 @@
+@mixin icon-size($width: 32px, $height: 32px) {
+  width: $width;
+  height: $height;
+}
+
+@mixin social-list-link-size($width: 56px, $height: 56px) {
+  width: $width;
+  height: $height;
+}

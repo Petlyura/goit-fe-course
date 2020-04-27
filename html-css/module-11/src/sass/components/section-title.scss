@@ -1,0 +1,10 @@
+.section__title {
+  margin: 0;
+  text-transform: uppercase;
+
+  &--cursive {
+    font-family: $cursive-font-stack;
+    line-height: map-get($line-heights, base);
+    font-weight: map-get($font-weights, regular);
+  }
+}

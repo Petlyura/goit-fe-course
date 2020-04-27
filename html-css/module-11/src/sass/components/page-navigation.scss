@@ -1,0 +1,7 @@
+.page-navigation {
+  @extend .container;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 158px;
+}
